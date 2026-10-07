@@ -6,3 +6,10 @@ João precisa que você faça um programa que leia a variável peso (peso de pei
 Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor
  da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 '''
+
+peso = int(input("Peso do peixe: "))
+excesso = peso - 50
+multa = excesso * 4
+
+print(f"Total de peso excedente e de {excesso} kg")
+print(f"Sua multa foi de {multa} kg")
